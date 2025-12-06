@@ -1,10 +1,9 @@
 <template>
   <div class="about-container">
     <el-container class="content-container">
-      <el-header>Header</el-header>
       <el-main>
       </el-main>
-      <el-footer>Footer</el-footer>
+      <el-footer>@Vicky</el-footer>
     </el-container>
   </div>
 </template>
@@ -53,11 +52,13 @@ export default {
 }
 
 /* 可选：给 Header 和 Footer 加点颜色以便看清布局 */
-.el-header, .el-footer {
-  background-color: #b3c0d1;
+.el-footer {
+  background-color: #ac9db1;
   color: #333;
   text-align: center;
-  line-height: 60px;
+  line-height: 50px;
+  height:50px;
+  opacity: 0.85;
 }
 
 .el-main {
